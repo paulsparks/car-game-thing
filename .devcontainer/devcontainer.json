@@ -1,0 +1,21 @@
+{
+  "name": "car-game-thing",
+  "image": "node:23",
+  "customizations": {
+    "vscode": {
+      "extensions": [],
+      "settings": {
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.tabSize": 2
+      }
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
+}
