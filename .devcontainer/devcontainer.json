@@ -1,6 +1,7 @@
 {
   "name": "car-game-thing",
   "image": "node:23",
+  "remoteUser": "node",
   "customizations": {
     "vscode": {
       "extensions": [],
