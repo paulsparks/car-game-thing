@@ -4,7 +4,9 @@
   "remoteUser": "node",
   "customizations": {
     "vscode": {
-      "extensions": [],
+      "extensions": [
+        "bradlc.vscode-tailwindcss"
+      ],
       "settings": {
         "terminal.integrated.profiles.linux": {
           "bash": {
@@ -12,7 +14,8 @@
           }
         },
         "terminal.integrated.defaultProfile.linux": "bash",
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "typescript.tsdk": "node_modules/typescript/lib"
       }
     }
   },
