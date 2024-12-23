@@ -19,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${audioWide.className} antialiased`}
+        className={`${audioWide.className} antialiased mt-20`}
       >
-        {children}
+        <div className="flex flex-col items-center gap-4">
+          {children}
+        </div>
       </body>
     </html>
   );
